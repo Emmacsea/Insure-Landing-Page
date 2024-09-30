@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav {
+    @apply text-sm mr-6 text-neutral-dgrayishviolet uppercase tracking-wide
+}
+
+.head {
+    @apply text-primary-darkviolet font-bold uppercase
+}
+
+.btn {
+    @apply text-sm tracking-wide py-2 px-8
+}
+
+.bgbtn {
+    @apply flex justify-center items-center text-nowrap border-neutral-vlightgray border-2 text-neutral-vlightgray font-bold text-sm uppercase
+}
+
+.det {
+    @apply text-2xl md:text-4xl tracking-wide font-bold text-neutral-vdarkviolet my-8
+}
+
+.detp {
+    @apply text-base md:text-xl text-primary-grayishblue
+}
+
+.foothead {
+    @apply text-sm md:text-lg text-neutral-dgrayishviolet uppercase font-bold mb-6
+}
+
+.footdetails {
+    @apply text-sm md:text-lg text-primary-darkviolet uppercase font-bold
+}
+
+.medium {
+    @apply md:flex-col justify-center items-center text-nowrap text-center
+}
+
+.med {
+    @apply md:flex flex-col justify-center items-center gap-10
+}
