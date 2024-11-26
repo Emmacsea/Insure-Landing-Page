@@ -10,12 +10,20 @@
     @apply text-primary-darkviolet font-bold uppercase
 }
 
+.head:hover {
+    @apply text-neutral-vlightgray bg-primary-darkviolet text-sm tracking-wide py-2 px-8
+}
+
 .btn {
     @apply text-sm tracking-wide py-2 px-8
 }
 
 .bgbtn {
     @apply flex justify-center items-center text-nowrap border-neutral-vlightgray border-2 text-neutral-vlightgray font-bold text-sm uppercase
+}
+
+.bgbtn:hover {
+    @apply text-primary-darkviolet bg-neutral-vlightgray
 }
 
 .det {
@@ -27,11 +35,11 @@
 }
 
 .foothead {
-    @apply text-sm md:text-lg text-neutral-dgrayishviolet uppercase font-bold mb-6
+    @apply text-sm md:text-lg text-neutral-dgrayishviolet uppercase font-bold 
 }
 
 .footdetails {
-    @apply text-sm md:text-lg text-primary-darkviolet uppercase font-bold
+    @apply text-sm md:text-lg text-primary-darkviolet uppercase font-bold space-y-2 cursor-pointer
 }
 
 .medium {
@@ -40,4 +48,17 @@
 
 .med {
     @apply md:flex flex-col justify-center items-center gap-10
+}
+
+/* Mobile nav */
+.mobile-nav {
+    @apply text-neutral-vlightgray text-lg uppercase space-y-4  flex flex-col justify-center items-center cursor-pointer 
+}
+
+.mobile-btn {
+    @apply border-2 border-neutral-vlightgray px-20 py-1 text-neutral-vlightgray text-lg uppercase 
+}
+
+.mobile-btn:hover {
+    @apply text-neutral-vdarkviolet bg-neutral-vlightgray
 }
